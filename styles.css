@@ -1,8 +1,28 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Mulish', sans-serif;
 }
 .img-intro{
     width: 693px;
     height: 598px;
+}
+.header {
+    margin-top: 56px;
+    margin-left: 191px;
+}
+.menu{
+    margin-right: 192px;
+}
+.menu a{
+    padding-right: 20px;
+}
+.header .logo span{
+    background-color:#458FF6;
+    color: #ffffff;
+    width: 41px;
+    height: 41px;
+    font-weight: 700;
+    font-size: 26px;
+    font-style: normal;
 }
