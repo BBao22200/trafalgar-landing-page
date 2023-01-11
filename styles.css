@@ -66,6 +66,7 @@
     border: none;
     padding: 20px 40px;
     border-radius: 55px;
+    cursor: pointer;
 }
 .content .intro button:hover{
     background-color: black;
@@ -103,7 +104,7 @@
 .services .button{
     text-align: center;
     margin-top: 69px;
-    
+    cursor: pointer;
 }
 .services .button button{
     line-height: 60px;
@@ -116,6 +117,7 @@
     border-radius: 55px;
     border: 2px solid #458FF6;
     /* border: 2px #458FF6; */
+    cursor: pointer;
 }
 .services .button button:hover{
     background-color: black;
@@ -194,6 +196,7 @@
     border-radius: 55px;
     border: 2px solid #458FF6;
     width: 50%;
+    cursor: pointer;
 }
 .providers button:hover{
     background-color: black;
@@ -234,10 +237,119 @@
     border-radius: 55px;
     border: 2px solid #458FF6;
     width: 40%;
+    cursor: pointer;
 }
 .download button:hover{
     background-color: black;
     transition: background-color 0.5s;
     opacity: 0.5;
-  
+}
+.feedback h1::after{
+    content: " ";
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+    right: -45%;
+    top: 30px;
+}
+.article img{
+    height: 45%;
+    width: 100%;
+}
+.article{
+    background-color: #fff;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    margin-left: 17px;
+}
+.article h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 20px;
+}
+.article p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+}
+.article-title h1::after{
+    content: " ";
+    display: block;
+    background-color: #000000;
+    height: 2px;
+    width: 10%;
+    position: relative;
+    right: -45%;
+    top: 30px;
+}
+.article-title button{
+    border-radius: 55px;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 201px;
+    color: #FFFFFF;
+}
+.footer .info{
+    width: 40%;
+    margin: 0 100px;
+}
+.footer .company{
+    margin-right: 75px;
+}
+.footer .info .logo-footer h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+.footer .info .logo-footer{
+    margin-bottom: 30px;
+}
+.footer .info p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+}
+.footer .logo-footer span{
+    border-radius: 35px;
+    color: #5B9BF3;
+    background-color: #fff;
+    width: 41px;
+    height: 41px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    margin-right: 20px;
+}
+.footer .company h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+}
+.footer .company ul a{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #fff;
+}
+.footer .company ul{
+    width: max-content;
+}
+.view-all-bt:hover{
+    background-color: #6c757d;
+    transition: background-color 0.5s;
+    opacity: 0.5;
 }
